@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html ng-app="gridApp">
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="Scripts/angular.js"></script>
+    <script src="http://ui-grid.info/release/ui-grid.js"></script>
+    <link rel="stylesheet" href="http://ui-grid.info/release/ui-grid.css" />
+    <script src="Scripts/gridAppScripts.js"></script>
+    <style>
+        .gridStyle {
+            height: 400px;
+            width: 700px;
+        }
+    </style>
+</head>
+<body ng-controller="testController">
+    <h2>Understanding the Grid in AngularJs...</h2>
+    <div ui-grid="employeeGrid" ui-grid-move-columns ui-grid-pagination class="gridStyle"></div>
+</body>
+</html>
