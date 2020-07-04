@@ -1,6 +1,7 @@
 ﻿/// <reference path="angular.js" />
 
-var app = angular.module('gridApp', ['ui.grid','ui.grid.pagination','ui.grid.moveColumns']);
+
+var app = angular.module('gridApp', ['ui.grid', 'ui.grid.pagination', 'ui.grid.moveColumns']);
 
 app.controller('testController', function ($scope, $http) {
 
